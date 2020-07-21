@@ -1,0 +1,94 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+img{
+  max-width: 200px;
+  max-height: 200px;
+  border: solid;
+  border-radius: 50%;
+  border-color: #fff;
+}
+.profile-pic{
+margin-left: 18%;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+ol{
+ list-style-type: none; 
+}
+p{
+margin-left: 70;  max-width: 360px;
+}
+.learning p{
+  margin-left: 40px;
+  max-width: 360px;
+}
+.objective p{
+  margin-left: 40px;
+}
+li img{
+  background-color: #E3E2DF;
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+.main {
+  background-color: #E3E2DF;
+  display: flex;
+  flex-direction: row;
+  width: 842px;
+  height: 1191px;
+  border: solid;
+}
+.profile{
+  color: #E3AFBC;
+  width: 40%;
+  height: auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  background-color: #5D001E;
+  align-content: center;
+}
+.sections{
+  width: 65%;
+  height: auto;
+}
+.sections h4{
+  padding-left: -20px;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+.programs-body{
+display: flex;
+flex-direction: row;
+}
+.programs-body ol{
+  width: 50%;
+}
+.programs h4{
+  margin-left: 40px;
+  margin-right: 35px;
+}
+h4{
+  border-bottom: 2px solid gray;
+}
+.technologies-body{
+display: flex;
+flex-direction: row;
+}
+.technologies ol{
+  width: 50%;
+}
+.technologies h4{
+  margin-left: 40px;
+  margin-right: 35px;
+}
+pre {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  white-space: pre;
+  margin: 1em 0;
+}
